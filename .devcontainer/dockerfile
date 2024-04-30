@@ -1,4 +1,5 @@
 FROM mcr.microsoft.com/devcontainers/base:bullseye
+#https://github.com/devcontainers/images/tree/main/src/base-debian/history
 
 RUN apt-get update && \
     apt upgrade
